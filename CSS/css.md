@@ -1,0 +1,5 @@
+- [Joshwcomeau Helps  with CSS](https://www.joshwcomeau.com/css/designing-shadows/)
+- [Frontend Mentor](https://www.frontendmentor.io/)
+- [Learn CSS with web.dev]( https://web.dev/learn/css/)
+- [I love coding](https://ilovecoding.org/courses/htmlcss2)
+- [scrimba](https://scrimba.com/)
