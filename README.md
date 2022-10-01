@@ -3,7 +3,7 @@ This repository was created to host some learning resources that could be used t
 
 ## To Contribute:
 - Fork it
-- If the category of the book you want to upload isn't available, create a folder with the name, example could be (AI, PYTHON, C#, WEB DEV, RUST, GOLANG etc)
+- If the category of the course you want to upload isn't available, create a folder with the name, example could be (AI, PYTHON, C#, WEB DEV, RUST, GOLANG etc)
 - Add a file containing links to the resource ( youtube tutorial or books )
 - Commit 
 - Finally make a pull request
