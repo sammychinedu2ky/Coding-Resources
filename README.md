@@ -1,5 +1,5 @@
 # Coding-Resources
-This repository was created to host some learning resources that could be used to help foster your coding development
+This repository was created to host some learning resources that could be used to help foster your coding development and increase participation in Hacktoberfest
 
 ## To Contribute:
 - Fork it
