@@ -4,10 +4,10 @@ This repository was created to host some learning resources that could be used t
 ## To Contribute:
 - Fork it
 - If the category of the book you want to upload isn't available, create a folder with the name, example could be (AI, PYTHON, C#, WEB DEV, RUST, GOLANG etc)
-- Add the book to folder
+- Add a file containing links to the resource ( youtube tutorial or books )
 - Commit 
 - Finally make a pull request
 
-#### NB: You can also create a category and upload a text file containing links to youtube tuturials or online courses for a particular category
+#### NB: Dont upload pdf but rather links to the resource
 
 Gracias 🥂
