@@ -8,6 +8,6 @@ This repository was created to host some learning resources that could be used t
 - Commit 
 - Finally make a pull request
 
-#### NB: Dont upload pdf but rather links to the resource
+#### NB: Dont upload pdf but rather links to the resource and ensure it is a free content ( Open an issue if you see a content that isn't free )
 
 Gracias 🥂
