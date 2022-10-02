@@ -4,3 +4,5 @@
 - [I love coding](https://ilovecoding.org/courses/htmlcss2)
 - [scrimba](https://scrimba.com/)  
 - [CSS Garden](https://cssgridgarden.com)
+- [Learn to code HTML & CSS](https://learn.shayhowe.com/html-css/)
+- [Learn to code advanced HTML & CSS](https://learn.shayhowe.com/advanced-html-css/)
