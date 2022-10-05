@@ -3,7 +3,7 @@
 
 ### Index
 - [Courses](#courses)
-- [Games](#games)"    
+- [Games](#games)
 - [PDFs](#pdfs)
 
 ## Courses
@@ -14,5 +14,4 @@
 - [Git learning games](https://learngitbranching.js.org/)
 
 ## PDFs
-- [Pro Git](https://git-scm.com/book/en/v2)
-  __The official Pro Git Ebook__
+- [Pro Git](https://git-scm.com/book/en/v2) - *The official Pro Git Ebook*

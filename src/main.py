@@ -14,9 +14,11 @@ RESOURCE_HEADING = """
 
 def compile(resourceName, resourceStucture) -> str:
     def compileResource (resource):
-        compiledOutput = f"- [{resource['title']}]({resource['link']})\n"
+        compiledOutput = f"- [{resource['title']}]({resource['link']})"
         if resource.get('description'):
-            compiledOutput += f"  *{resource['description']}*\n"
+            compiledOutput += f" - *{resource['description']}*\n"
+        else:
+            compiledOutput += "\n"
         return compiledOutput
 
     compiledOutput = RESOURCE_HEADING.format(resourceName = resourceName)
