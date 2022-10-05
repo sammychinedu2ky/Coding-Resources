@@ -1,3 +1,44 @@
 [
-  191919
+  {
+    "type": "tutorial",
+    "title": "Joshwcomeau Helps with CSS",
+    "link": "https://www.joshwcomeau.com/css/designing-shadows/",
+    "description": "Designing Beautiful Shadows in CSS"
+  },
+  {
+    "type": "platform",
+    "title": "Frontend Mentor",
+    "link": "https://www.frontendmentor.io/",
+    "description": "Improve your front-end coding skills by building real projects"
+  },
+  {
+    "type": "platform",
+    "title": "Learn CSS with web.dev",
+    "link": "https://web.dev/learn/css/"
+  },
+  {
+    "type": "course",
+    "title": "I love coding",
+    "link": "https://ilovecoding.org/courses/htmlcss2"
+  },
+  {
+    "type": "platform",
+    "title": "Scrimba",
+    "link": "https://scrimba.com/"
+  },
+  {
+    "type": "game",
+    "title": "CSS Garden",
+    "link": "https://cssgridgarden.com"
+  },
+  {
+    "type": "course",
+    "title": "Learn to code HTML & CSS",
+    "link": "https://learn.shayhowe.com/html-css/"
+  },
+  {
+    "type": "course",
+    "title": "Learn to code advanced HTML & CSS",
+    "link": "https://learn.shayhowe.com/advanced-html-css/"
+  }
 ]
