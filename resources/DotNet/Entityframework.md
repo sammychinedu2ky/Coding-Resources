@@ -1,1 +1,0 @@
-- [Entity Framework Core](https://learn.microsoft.com/en-us/ef/)
