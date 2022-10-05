@@ -4,11 +4,7 @@ function main () {
   function compile () {
     local sourceContent="$1"
     local old_IFS="$IFS"
-    #IFS='
-#'
-    # IFS=$old_IFS
     echo "${sourceContent}" | sed -E 's/.*\[(.*?)\]\((.*?)\)/{ "type": "pdf", "title": "\1", "link": "\2" }/'
-
   }
 
   local old_IFS="$IFS"
@@ -29,10 +25,13 @@ function main () {
     do
       local resourceFile="${resourceFiles[i]}"
 
-      IFS=$_old_IFS
+      # IFS=$_old_IFS
       local fileContent="$(cat "${RESOURCES_FOLDER}/${resourceFolder}/${resourceFile}" | grep -E '\[.*\]\(.*\)|\(.*\)\[.*\]')"
 
-      local compiled="$(compile "$fileContent")"
+      local compiled="$(compile "$fileContent" | sed -E 's/(\{.*?\})\s(\{.*?\})//')"
+      echo $compiled
+
+      exit
 
       if [ -n "${compiled}" ]
       then
@@ -55,9 +54,11 @@ function main () {
 
     compiledOutput+="]"
 
-    echo $compiledOutput | jq
+    #echo $compiledOutput | jq
+    #echo
     echo $compiledOutput
-    echo
+    #echo
+    exit
 
   done
 
