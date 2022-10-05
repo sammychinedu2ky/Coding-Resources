@@ -17,6 +17,7 @@
   {
     "type": "pdf",
     "title": "Pro Git",
+    "description": "The official Pro Git Ebook",
     "link": "https://git-scm.com/book/en/v2"
   }
 ]
