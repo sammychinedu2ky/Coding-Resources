@@ -54,5 +54,4 @@ if __name__ == '__main__':
         with open(os.path.join(RESOURCES_FOLDER, resourceFolder, "resources.json"), "r") as fh:
             resourceStucture = json.load(fh)
         with open(os.path.join(RESOURCES_FOLDER, resourceFolder, "README.md"), "w") as fh:
-            print(compile(resourceFolder, resourceStucture))
             fh.write(compile(resourceFolder, resourceStucture))
