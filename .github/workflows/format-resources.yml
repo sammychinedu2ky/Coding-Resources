@@ -1,0 +1,23 @@
+---
+name: Reads in the resources.json file in each resource folder and generated respective README.md
+on:
+  push:
+    branches:
+      - main
+      - dev
+jobs:
+  compile-resources:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout current version of repo
+        uses: actions/checkout@v3
+        with:
+          token: ${{ GH_TOKEN }}
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.10
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Compile Resources
+        run: python3 src/main.py
