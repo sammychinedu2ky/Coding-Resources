@@ -1,0 +1,3 @@
+- [Algorithm notes](https://goalkicker.com/AlgorithmsBook/AlgorithmsNotesForProfessionals.pdf)
+- [Exercism](https://exercism.org)
+- [Leetcode](https://leetcode.com)

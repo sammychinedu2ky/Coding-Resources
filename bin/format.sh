@@ -3,10 +3,9 @@
 function main () {
   function compile () {
     local sourceContent="$1"
-    echo "${sourceContent}" | sed -E 's/.*\[(.*?)\]\((.*?)\)/{ "type": "pdf", "title": "\1", "link": "\2" }/'
+    echo "${sourceContent}" | sed -E 's/.*\[(.*?)\]\((.*?)\)/{ "type": "pdf", "title": "\1", "link": "\2" },/'
   }
 
-  local old_IFS="$IFS"
   IFS='
 '
   local RESOURCES_FOLDER="resources"
@@ -14,40 +13,27 @@ function main () {
 
   for resourceFolder in "${resourceFolders[@]}"
   do
+    IFS=" "
     resourceFolder="DataStructure and Algorithms"
     local currentFolder="${RESOURCES_FOLDER}/${resourceFolder}"
-    local resourceFiles=($(ls "${currentFolder}" | grep -E ".md$"))
+    local resourceFiles=($(ls "$currentFolder"))
 
     compiledOutput="["
 
-    for i in $(seq 0 $((${#resourceFiles[@]} - 1)))
-    do
-      local resourceFile="${resourceFiles[i]}"
+    local fileContent="$(find "${currentFolder}" -type f | grep -E ".md" | xargs -I {} cat "{}")"
+    local compiled="$(compile "$fileContent")"
 
-      local fileContent="$(cat "${RESOURCES_FOLDER}/${resourceFolder}/${resourceFile}" | grep -E '\[.*\]\(.*\)|\(.*\)\[.*\]')"
+    if (( ${#compiled} > 0 ))
+    then
+      echo "________sss________${compiled}________eee________"
+      compiled="${compiled::-1}"
+      exit
 
-      local compiled="$(compile "$fileContent" | sed -E 's/(\{.*?\})/\1,/g')"
-      if (( ${#compiled} > 0 ))
+      if [ -n "${compiled}" ]
       then
-        compiled="${compiled::-1}"
-        echo "${compiled}"
-
-        if [ -n "${compiled}" ]
-        then
-          if [[ "${#resourceFiles[@]}" == "1" ]]
-          then
-            compiledOutput+="${compiled}"
-          else
-            if [[ $i == $((${#resourceFiles[@]} - 1)) ]]
-            then
-              compiledOutput+="${compiled}"
-            else
-              compiledOutput+="${compiled},"
-            fi
-          fi
-        fi
+        compiledOutput+="${compiled}"
       fi
-    done
+    fi
 
     exit
     compiledOutput+="]"
