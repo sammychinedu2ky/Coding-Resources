@@ -10,38 +10,23 @@ function main () {
 '
   local RESOURCES_FOLDER="resources"
   local resourceFolders=($(ls "${RESOURCES_FOLDER}"))
+  IFS=" "
 
   for resourceFolder in "${resourceFolders[@]}"
   do
-    IFS=" "
-    resourceFolder="DataStructure and Algorithms"
     local currentFolder="${RESOURCES_FOLDER}/${resourceFolder}"
     local resourceFiles=($(ls "$currentFolder"))
 
     compiledOutput="["
 
     local fileContent="$(find "${currentFolder}" -type f | grep -E ".md" | xargs -I {} cat "{}")"
-    local compiled="$(compile "$fileContent")"
+    local compiled="$(compile "$fileContent")191919"
+    compiled="$(echo $compiled | sed -E 's/\}, 191919?/}/')"
+    compiledOutput+="${compiled}"
 
-    if (( ${#compiled} > 0 ))
-    then
-      echo "________sss________${compiled}________eee________"
-      compiled="${compiled::-1}"
-      exit
-
-      if [ -n "${compiled}" ]
-      then
-        compiledOutput+="${compiled}"
-      fi
-    fi
-
-    exit
     compiledOutput+="]"
 
-    # echo "${currentFolder}"
-    # echo "${compiledOutput}" | jq > "${currentFolder}/resources.json"
-    echo "${compiledOutput}"
-    exit
+    echo "${compiledOutput}" | jq > "${currentFolder}/resources.json"
 
   done
 
