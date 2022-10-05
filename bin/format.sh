@@ -14,6 +14,7 @@ function main () {
 
   for resourceFolder in "${resourceFolders[@]}"
   do
+    resourceFolder="DataStructure and Algorithms"
     local currentFolder="${RESOURCES_FOLDER}/${resourceFolder}"
     local resourceFiles=($(ls "${currentFolder}" | grep -E ".md$"))
 
@@ -29,30 +30,32 @@ function main () {
       if (( ${#compiled} > 0 ))
       then
         compiled="${compiled::-1}"
-      fi
+        echo "${compiled}"
 
-      if [ -n "${compiled}" ]
-      then
-        if [[ "${#resourceFiles[@]}" == "1" ]]
+        if [ -n "${compiled}" ]
         then
-          compiledOutput+="${compiled}"
-        else
-          if [[ $i == $((${#resourceFiles[@]} - 1)) ]]
+          if [[ "${#resourceFiles[@]}" == "1" ]]
           then
             compiledOutput+="${compiled}"
           else
-            compiledOutput+="${compiled},"
+            if [[ $i == $((${#resourceFiles[@]} - 1)) ]]
+            then
+              compiledOutput+="${compiled}"
+            else
+              compiledOutput+="${compiled},"
+            fi
           fi
         fi
       fi
     done
 
+    exit
     compiledOutput+="]"
 
-    echo $currentFolder
-    echo $compiledOutput | jq
-    echo $compiledOutput
-    echo
+    # echo "${currentFolder}"
+    # echo "${compiledOutput}" | jq > "${currentFolder}/resources.json"
+    echo "${compiledOutput}"
+    exit
 
   done
 
