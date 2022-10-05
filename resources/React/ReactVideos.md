@@ -1,4 +1,3 @@
-https://www.simplilearn.com/learn-react-js-basics-free-course-skillup
-
-https://youtu.be/bMknfKXIFA8
-https://youtu.be/w7ejDZ8SWv8
+- [ReactJS for Beginners (Simplilearn)](https://www.simplilearn.com/learn-react-js-basics-free-course-skillup)
+- [React Course - Beginner's Tutorial for React JavaScript Library (FreeCodeCamp)](https://youtu.be/bMknfKXIFA8)
+- [React JS Crash Course (Travesy Media)](https://youtu.be/w7ejDZ8SWv8)
