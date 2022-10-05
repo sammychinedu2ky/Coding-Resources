@@ -1,0 +1,1 @@
+- [Learn Blazor by dotnetMastery (YouTube)](https://www.youtube.com/watch?v=QKr1HPq6YlI&t=1554s)
