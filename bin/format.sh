@@ -3,7 +3,6 @@
 function main () {
   function compile () {
     local sourceContent="$1"
-    local old_IFS="$IFS"
     echo "${sourceContent}" | sed -E 's/.*\[(.*?)\]\((.*?)\)/{ "type": "pdf", "title": "\1", "link": "\2" }/'
   }
 
@@ -15,7 +14,6 @@ function main () {
 
   for resourceFolder in "${resourceFolders[@]}"
   do
-    local resourceFolder="Git"
     local currentFolder="${RESOURCES_FOLDER}/${resourceFolder}"
     local resourceFiles=($(ls "${currentFolder}" | grep -E ".md$"))
 
@@ -25,13 +23,13 @@ function main () {
     do
       local resourceFile="${resourceFiles[i]}"
 
-      # IFS=$_old_IFS
       local fileContent="$(cat "${RESOURCES_FOLDER}/${resourceFolder}/${resourceFile}" | grep -E '\[.*\]\(.*\)|\(.*\)\[.*\]')"
 
-      local compiled="$(compile "$fileContent" | sed -E 's/(\{.*?\})\s(\{.*?\})//')"
-      echo $compiled
-
-      exit
+      local compiled="$(compile "$fileContent" | sed -E 's/(\{.*?\})/\1,/g')"
+      if (( ${#compiled} > 0 ))
+      then
+        compiled="${compiled::-1}"
+      fi
 
       if [ -n "${compiled}" ]
       then
@@ -47,18 +45,14 @@ function main () {
           fi
         fi
       fi
-
-      IFS='
-'
     done
 
     compiledOutput+="]"
 
-    #echo $compiledOutput | jq
-    #echo
+    echo $currentFolder
+    echo $compiledOutput | jq
     echo $compiledOutput
-    #echo
-    exit
+    echo
 
   done
 
