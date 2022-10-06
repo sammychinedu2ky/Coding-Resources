@@ -1,0 +1,22 @@
+[
+  {
+    "type": "pdf",
+    "title": "LinkedIn learning basics ",
+    "link": "https://www.linkedin.com/learning/git-essential-training-the-basics"
+  },
+  {
+    "type": "pdf",
+    "title": "LinkedIn learning intermediate",
+    "link": "https://www.linkedin.com/learning/git-intermediate-techniques"
+  },
+  {
+    "type": "pdf",
+    "title": "Git learning games",
+    "link": "https://learngitbranching.js.org/"
+  },
+  {
+    "type": "pdf",
+    "title": "Pro Git",
+    "link": "https://git-scm.com/book/en/v2"
+  }
+]
