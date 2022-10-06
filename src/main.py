@@ -27,7 +27,6 @@ def compile(resourceName, resourceStucture) -> str:
         "pdfs": []
     }
     for resource in resourceStucture:
-        print(resource)
         if (resource["type"] == "course"):
             resources["courses"].append(resource)
         elif (resource["type"] == "game"):
