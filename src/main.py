@@ -1,8 +1,7 @@
 import json
 import os
 
-RESOURCES_FOLDER = "res"
-# RESOURCES_FOLDER = "resources"
+RESOURCES_FOLDER = "resources"
 RESOURCE_HEADING = """
 # {resourceName}
 
