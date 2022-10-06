@@ -3,7 +3,7 @@ name: Reads in the resources.json file in each resource folder and generated res
 on:
   push:
     branches:
-      - dev
+      - main
 env:
   GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 jobs:
