@@ -1,0 +1,17 @@
+
+# Linux
+
+### Index
+- [Courses](#courses)
+- [Games](#games)
+- [PDFs](#pdfs)
+
+## Courses
+
+## Games
+
+## PDFs
+- [linuxjourney.com](https://linuxjourney.com/)
+- [Linux Basics for Hackes (Book)](https://www.pdfdrive.com/linux-basics-for-hackers-getting-started-with-networking-scripting-and-security-in-kali-e183866929.html)
+- [Linux Command Line and Shell Scripting Bible (Book)](https://www.pdfdrive.com/linux-command-line-and-shell-scripting-bible-e26975790.html)
+- [Linux Tutorials and Projects (Course)](https://www.udemy.com/course/linux-tutorials/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-VnFUWbVcVLi_lc3okae7kg)
