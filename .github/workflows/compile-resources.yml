@@ -1,13 +1,14 @@
 ---
 name: Reads in the resources.json file in each resource folder and generated respective README.md
 on:
-  push:
-    branches:
-      - main
+  pull_request:
+    types:
+      - closed
 env:
   GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 jobs:
   compile-resources:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - name: Checkout current version of repo
