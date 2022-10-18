@@ -9,7 +9,7 @@
 
  - [PDFs](#pdfs)
 
- - [Learning tools & Forums](#Learning tools & Forums)
+ - [Learning tools & Forums](#learning tools and Forums)
 
 
  ## Courses
@@ -23,7 +23,7 @@
 
  - [Bash For Programmers](https://www.educative.io/courses/bash-for-programmers?authorName=Educative%3Faffiliate_id%3D5073518643380224)
 
- - [Linux Operating System](200~https://www.udemy.com/course/draft/2316478/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-gg5Xc4rsIO_qZHQz1Nm9hQ&utm_medium=udemyads&utm_source=aff-campaign)
+ - [Linux Operating System](https://www.udemy.com/course/draft/2316478/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-gg5Xc4rsIO_qZHQz1Nm9hQ&utm_medium=udemyads&utm_source=aff-campaign)
 
  - [Linux Administration Bootcamp](https://www.udemy.com/course/linux-administration-bootcamp/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-sX7EuracW7rx6837T25ZjQ&utm_source=aff-campaign&LSNPUBID=JVFxdTr9V80&utm_medium=udemyads)
 
@@ -77,27 +77,27 @@
 
 ### Index
 
-  -[Courses](#courses)
+  - [Courses](#courses)
 
-  -[Videos](#videos)
+  - [Videos](#videos)
 
-  -[Learning tools & Forums](#Learning tools & Forums)
+  - [Learning tools & Forums](#Learning tools and Forums)
 
-  -[PDFs](#pdfs)
+  - [PDFs](#pdfs)
 
  
  ## Courses
 
 
-   -[Windows Powershell:Scripting and Toolmaking](https://www.pluralsight.com/paths/powershell-scripting-and-toolmaking)
+   - [Windows Powershell:Scripting and Toolmaking](https://www.pluralsight.com/paths/powershell-scripting-and-toolmaking)
 
-   -[Windows Powershell:Essentials](https://www.pluralsight.com/paths/windows-powershell-essentials)
+   - [Windows Powershell:Essentials](https://www.pluralsight.com/paths/windows-powershell-essentials)
 
-   -[Installing and Running Powershell](https://www.pluralsight.com/courses/installing-running-powershell)
+   - [Installing and Running Powershell](https://www.pluralsight.com/courses/installing-running-powershell)
 
-   -[Learning Powershell](https://www.linkedin.com/learning/learning-powershell)
+   - [Learning Powershell](https://www.linkedin.com/learning/learning-powershell)
 
-   -[PowerShell 7 Essential Training](https://www.linkedin.com/learning/learning-powershell)
+   - [PowerShell 7 Essential Training](https://www.linkedin.com/learning/learning-powershell)
    
  ## Videos
 
