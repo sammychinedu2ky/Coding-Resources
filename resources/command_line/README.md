@@ -3,57 +3,57 @@
 ### Index
 
 
- -[Courses](#courses)
+ - [Courses](#courses)
 
- -[Videos](#videos)
+ - [Videos](#videos)
 
- -[PDFs](#pdfs)
+ - [PDFs](#pdfs)
 
- -[Learning tools & Forums](#Learning tools & Forums)
+ - [Learning tools & Forums](#Learning tools & Forums)
 
 
  ## Courses
 
 
- -[Udemy.com](https://www.udemy.com/course/linux-mastery/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-wKExS.yagNevnZUq0OVGPg&utm_source=aff-campaign&LSNPUBID=JVFxdTr9V80&utm_medium=udemyads)
+ - [Udemy.com](https://www.udemy.com/course/linux-mastery/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-wKExS.yagNevnZUq0OVGPg&utm_source=aff-campaign&LSNPUBID=JVFxdTr9V80&utm_medium=udemyads)
 
- -[Udemy.com](https://www.udemy.com/course/linux-command-line-volume1/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-B2tIMkw4qmM8uDbTXT5Yxg&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads)
+ - [Udemy.com](https://www.udemy.com/course/linux-command-line-volume1/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-B2tIMkw4qmM8uDbTXT5Yxg&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads)
 
- -[Vim Masterclass](https://www.udemy.com/course/vim-commands-cheat-sheet/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-hZ6bAzJZBcg5dUJu87fRww&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads)
+ - [Vim Masterclass](https://www.udemy.com/course/vim-commands-cheat-sheet/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-hZ6bAzJZBcg5dUJu87fRww&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads)
 
- -[Bash For Programmers](https://www.educative.io/courses/bash-for-programmers?authorName=Educative%3Faffiliate_id%3D5073518643380224)
+ - [Bash For Programmers](https://www.educative.io/courses/bash-for-programmers?authorName=Educative%3Faffiliate_id%3D5073518643380224)
 
- -[Linux Operating System](200~https://www.udemy.com/course/draft/2316478/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-gg5Xc4rsIO_qZHQz1Nm9hQ&utm_medium=udemyads&utm_source=aff-campaign)
+ - [Linux Operating System](200~https://www.udemy.com/course/draft/2316478/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-gg5Xc4rsIO_qZHQz1Nm9hQ&utm_medium=udemyads&utm_source=aff-campaign)
 
- -[Linux Administration Bootcamp](https://www.udemy.com/course/linux-administration-bootcamp/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-sX7EuracW7rx6837T25ZjQ&utm_source=aff-campaign&LSNPUBID=JVFxdTr9V80&utm_medium=udemyads)
+ - [Linux Administration Bootcamp](https://www.udemy.com/course/linux-administration-bootcamp/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-sX7EuracW7rx6837T25ZjQ&utm_source=aff-campaign&LSNPUBID=JVFxdTr9V80&utm_medium=udemyads)
 
- -[Learn the Command Line](https://www.codecademy.com/learn/learn-the-command-line)
+ - [Learn the Command Line](https://www.codecademy.com/learn/learn-the-command-line)
 
  
 
  ## Videos
 
- -[Bash/Terminal Crash Course for Beginners](https://www.youtube.com/watch?v=oxuRxtrO2Ag)
+ - [Bash/Terminal Crash Course for Beginners](https://www.youtube.com/watch?v=oxuRxtrO2Ag)
 
- -[Intro to Bash Scripting](https://www.linkedin.com/learning/learning-bash-scripting)
+ - [Intro to Bash Scripting](https://www.linkedin.com/learning/learning-bash-scripting)
 
- -[Learning the linux Command Line](https://www.linkedin.com/learning/learning-linux-command-line-2)
+ - [Learning the linux Command Line](https://www.linkedin.com/learning/learning-linux-command-line-2)
 
- -[Multitasking in a single Terminal Session](https://www.linkedin.com/learning/linux-multitasking-at-the-command-line/welcome)
-
-
- ## PDFS
+ - [Multitasking in a single Terminal Session](https://www.linkedin.com/learning/linux-multitasking-at-the-command-line/welcome)
 
 
- -[Introduction to Linux: A Hands On Guide](https://www.tldp.org/LDP/intro-linux/html/)
+ ## PDFs
 
- -[The Linux Command Line](http://linuxcommand.org/tlcl.php)
 
- -[Beginner's Guide to Bash(Ryan's Tutorials)](https://ryanstutorials.net/linuxtutorial/)
+ - [Introduction to Linux: A Hands On Guide](https://www.tldp.org/LDP/intro-linux/html/)
 
- -[Linux for Beginners](https://www.amazon.com/Linux-Beginners-Introduction-Operating-Command-ebook/dp/B00HNC1AXY)
+ - [The Linux Command Line](http://linuxcommand.org/tlcl.php)
 
- -[Into to the command line](https://github.com/PrincetonUniversity/introcmdline)
+ - [Beginner's Guide to Bash(Ryan's Tutorials)](https://ryanstutorials.net/linuxtutorial/)
+
+ - [Linux for Beginners](https://www.amazon.com/Linux-Beginners-Introduction-Operating-Command-ebook/dp/B00HNC1AXY)
+
+ - [Into to the command line](https://github.com/PrincetonUniversity/introcmdline)
 
 
 
