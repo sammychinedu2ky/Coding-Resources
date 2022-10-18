@@ -9,7 +9,7 @@
 
  - [PDFs](#pdfs)
 
- - [Learning tools & Forums](#learning tools and Forums)
+ - [Learning tools and Forums](#learning tools and Forums)
 
 
  ## Courses
@@ -57,7 +57,7 @@
 
 
 
- ## Learning tools & Forums
+ ## Learning tools and Forums
 
 
  - [EzeeLinux Forums](https://www.ezeelinux.com/talk/)
@@ -114,7 +114,7 @@
 
    - [Powershell.org](https://m.youtube.com/user/powershellorg)
 
- ## Learning tools & Forums
+ ## Learning tools and Forums
 
 
    - [Microsoft Learn](https://learn.microsoft.com/en-us/shows/getstartedpowershell3/)
