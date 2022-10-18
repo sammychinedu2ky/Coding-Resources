@@ -81,7 +81,7 @@
 
   - [Videos](#videos)
 
-  - [Documentation](#Documentation))
+  - [Documentation](#Documentations)
 
   - [PDFs](#pdfs)
 
