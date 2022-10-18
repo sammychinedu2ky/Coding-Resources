@@ -9,7 +9,7 @@
 
  - [PDFs](#pdfs)
 
- - [Learning tools and Forums](#learning tools and Forums)
+ - [Learning tools and Forums](#Learning tools and Forums)
 
 
  ## Courses
@@ -81,7 +81,7 @@
 
   - [Videos](#videos)
 
-  - [Learning tools & Forums](#Learning tools and Forums)
+  - [Learning tools and Forums](#Learning tools and Forums)
 
   - [PDFs](#pdfs)
 
