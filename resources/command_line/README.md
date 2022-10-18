@@ -9,7 +9,7 @@
 
  - [PDFs](#pdfs)
 
- - [Learning tools and Forums](#Learning tools and Forums)
+ - [Documentations](#documentations)
 
 
  ## Courses
@@ -57,7 +57,7 @@
 
 
 
- ## Learning tools and Forums
+ ## Documentations
 
 
  - [EzeeLinux Forums](https://www.ezeelinux.com/talk/)
@@ -81,7 +81,7 @@
 
   - [Videos](#videos)
 
-  - [Learning tools and Forums](#Learning tools and Forums)
+  - [Documentation](#Documentation))
 
   - [PDFs](#pdfs)
 
