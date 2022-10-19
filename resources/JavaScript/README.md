@@ -18,3 +18,4 @@
 - [Eloquent javaScript](https://eloquentjavascript.net/Eloquent_JavaScript_small.pdf)
 - [MDN JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 - [W3schools JavaScript](https://www.w3schools.com/js/default.asp)
+- [JavaScript.Info](https://javascript.info)
