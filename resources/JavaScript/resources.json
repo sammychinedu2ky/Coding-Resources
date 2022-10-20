@@ -48,5 +48,10 @@
     "type": "pdf",
     "title": "You Don't Know Js",
     "link": "https://github.com/getify/You-Don't-Know_Js"
+  },
+  {
+    "type": "courses",
+    "title": "Odin projects",
+    "link": "https://www.theodinproject.com"
   }
 ]
