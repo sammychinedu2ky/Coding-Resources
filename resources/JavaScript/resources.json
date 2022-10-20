@@ -33,5 +33,20 @@
     "type": "pdf",
     "title": "W3schools JavaScript",
     "link": "https://www.w3schools.com/js/default.asp"
+  },
+  {
+    "type": "pdf",
+    "title": "Speaking JavaScript",
+    "link": "https://speakingjs.com"
+  },
+  {
+    "type": "pdf",
+    "title": "Exercism",
+    "link": "https://exercism.io/languages/javascript"
+  },
+  {
+    "type": "pdf",
+    "title": "You Don't Know Js",
+    "link": "https://github.com/getify/You-Don't-Know_Js"
   }
 ]
