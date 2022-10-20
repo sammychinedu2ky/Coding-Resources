@@ -19,6 +19,7 @@
 - [Eloquent javaScript](https://eloquentjavascript.net/Eloquent_JavaScript_small.pdf)
 - [MDN JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 - [W3schools JavaScript](https://www.w3schools.com/js/default.asp)
+- [JavaScript.Info](https://javascript.info)
 - [Speaking JavaScript](https://speakingjs.com)
 - [Exercism (exercises)](https://exercism.io/languages/javascript)
 - [You Don't Know Js (book series)](https://github.com/getify/You-Don't-Know_Js)
