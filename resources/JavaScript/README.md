@@ -7,6 +7,7 @@
 - [PDFs](#pdfs)
 
 ## Courses
+- [Odin Project](https://www.theodinproject.com)
 
 ## Games
 
