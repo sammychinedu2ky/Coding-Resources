@@ -1,9 +1,9 @@
 
-# Java
+# Laravel
 
 ### Index
 - [Courses](#courses)
-- [Games](#games)
+- [Projects](#projects)
 - [PDFs](#pdfs)
 
 ## Courses
